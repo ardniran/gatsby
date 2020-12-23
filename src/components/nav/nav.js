@@ -12,6 +12,12 @@ const NavComponent = ({siteTitle}) => {
 			</h1>
 			<ul>
 				<li>
+					<AniLink fade to="/blog/">Blog</AniLink>
+				</li>
+				<li>
+					<AniLink fade to="/contact/">Contact</AniLink>
+				</li>
+				<li>
 					<AniLink paintDrip to="/about/">A propos</AniLink>
 				</li>
 				<li>
@@ -21,12 +27,7 @@ const NavComponent = ({siteTitle}) => {
 						<li><AniLink cover to="/services/sculpture">Sculpture</AniLink></li>
 					</ul>
 				</li>
-				<li>
-					<AniLink fade to="/blog/">Blog</AniLink>
-				</li>
-				<li>
-					<AniLink fade to="/contact/">Contact</AniLink>
-				</li>
+				
 			</ul>
 		</nav>
 	)
