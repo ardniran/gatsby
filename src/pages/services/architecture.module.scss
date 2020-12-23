@@ -1,0 +1,13 @@
+.Architecture {
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		.galleryWrapper {
+			width: calc(100% / 3);
+
+			@media screen and (max-width: 640px) {
+				width: 100%;
+			}
+		}
+	}
+}

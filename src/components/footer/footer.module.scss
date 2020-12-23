@@ -1,0 +1,15 @@
+.Footer {
+	// position: absolute;
+	// bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background: tan;
+	width: calc(100% - 40px);
+	ul {
+		display: flex;
+		li {
+			margin-left: 20px;
+		}
+	}
+}
